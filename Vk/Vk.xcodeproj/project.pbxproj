@@ -11,6 +11,8 @@
 		E0B6602427909CD600728020 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6602327909CD600728020 /* LoginView.swift */; };
 		E0B6602627909CD700728020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6602527909CD700728020 /* Assets.xcassets */; };
 		E0B6602927909CD700728020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6602827909CD700728020 /* Preview Assets.xcassets */; };
+		E0ED38482794BEFA00151B86 /* UsersAndGroupBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED38472794BEFA00151B86 /* UsersAndGroupBuilder.swift */; };
+		E0ED384B2794C0B000151B86 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ED384A2794C0B000151B86 /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E0B6602327909CD600728020 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E0B6602527909CD700728020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B6602827909CD700728020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0ED38472794BEFA00151B86 /* UsersAndGroupBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAndGroupBuilder.swift; sourceTree = "<group>"; };
+		E0ED384A2794C0B000151B86 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		E0B6602027909CD600728020 /* Vk */ = {
 			isa = PBXGroup;
 			children = (
+				E0B660312790AD9800728020 /* Cells */,
 				E0B6602F27909D7A00728020 /* Screens */,
 				E0B6602127909CD600728020 /* VkApp.swift */,
 				E0B6602527909CD700728020 /* Assets.xcassets */,
@@ -70,6 +75,8 @@
 		E0B6602F27909D7A00728020 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E0ED38492794C07C00151B86 /* UserScreen */,
+				E0ED38452794BD1C00151B86 /* ViewBielder */,
 				E0B6603027909D8400728020 /* LoginScreen */,
 			);
 			path = Screens;
@@ -81,6 +88,29 @@
 				E0B6602327909CD600728020 /* LoginView.swift */,
 			);
 			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		E0B660312790AD9800728020 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E0ED38452794BD1C00151B86 /* ViewBielder */ = {
+			isa = PBXGroup;
+			children = (
+				E0ED38472794BEFA00151B86 /* UsersAndGroupBuilder.swift */,
+			);
+			path = ViewBielder;
+			sourceTree = "<group>";
+		};
+		E0ED38492794C07C00151B86 /* UserScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0ED384A2794C0B000151B86 /* UsersView.swift */,
+			);
+			path = UserScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B6602427909CD600728020 /* LoginView.swift in Sources */,
+				E0ED38482794BEFA00151B86 /* UsersAndGroupBuilder.swift in Sources */,
 				E0B6602227909CD600728020 /* VkApp.swift in Sources */,
+				E0ED384B2794C0B000151B86 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
