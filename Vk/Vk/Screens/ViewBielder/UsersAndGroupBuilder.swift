@@ -25,7 +25,7 @@ struct UsersAndGroupBuilder<Content>: View where Content: View {
             .frame(width: 60, height: 60, alignment: .center)
             .clipShape(Circle())
             .overlay(Circle().stroke(Color.black, lineWidth: 2))
-            .padding(.leading, 24)
+            .padding(.leading, 14)
  
         Text(self.text)
           .padding(.leading, 20)
