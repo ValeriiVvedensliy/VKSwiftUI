@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct VkApp: App {
-    var body: some Scene {
-        WindowGroup {
-            LoginView()
-        }
-    }
+  
+  var body: some Scene {
+      WindowGroup {
+        ContentView()
+      }
+  }
 }
