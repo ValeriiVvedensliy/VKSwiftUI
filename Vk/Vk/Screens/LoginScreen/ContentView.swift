@@ -10,18 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var isShouldGoToFrieds: Bool = false
-    
+  @State private var isShouldGoToFrieds: Bool = false
+
     var body: some View {
         
         NavigationView {
             HStack {
-                LoginView(isAuthorized: $isShouldGoToFrieds)
+                WebView(isAuthorized: $isShouldGoToFrieds)
                 
                 NavigationLink(destination: MainView(), isActive: $isShouldGoToFrieds) {
                     EmptyView()
                 }
             }
-        }.navigationViewStyle(StackNavigationViewStyle())
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }

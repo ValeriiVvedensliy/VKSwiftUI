@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct UsersAndGroupBuilder<Content>: View where Content: View {
   var image: String
@@ -19,7 +20,7 @@ struct UsersAndGroupBuilder<Content>: View where Content: View {
   var body: some View {
     Group {
       HStack {
-        Image(self.image)
+        KFImage(URL(string: self.image)!)
             .resizable()
             .aspectRatio(contentMode: .fill)
             .frame(width: 60, height: 60, alignment: .center)
