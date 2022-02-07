@@ -7,19 +7,25 @@
 
 import SwiftUI
 import QGrid
+import Kingfisher
 
 struct ImagesView: View {
-  let images: [Photo]
-  let name: String
+  @ObservedObject var viewModel: ImageViewModel
+  
+  init(viewModel: ImageViewModel) {
+    self.viewModel = viewModel
+  }
   
   var body: some View {
-    QGrid(images, columns: 3) {
-      Image($0.image)
+    QGrid(viewModel.photos, columns: 3) {
+      KFImage(URL(string: $0.image)!)
         .resizable()
         .scaledToFit()
         .clipShape(Circle())
         .shadow(color: .primary, radius: 5)
         .padding([.horizontal, .top], 7)
+    }.onAppear {
+      viewModel.fetchData()
     }
   }
 }

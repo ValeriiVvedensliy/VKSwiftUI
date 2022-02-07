@@ -12,10 +12,27 @@
 		E03F9FCF27A3472A005979EB /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F9FCE27A3472A005979EB /* NewsView.swift */; };
 		E03F9FD127A34D31005979EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F9FD027A34D31005979EB /* ContentView.swift */; };
 		E03F9FD327A34DFD005979EB /* VkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F9FD227A34DFD005979EB /* VkApp.swift */; };
-		E03F9FD727A35649005979EB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F9FD627A35649005979EB /* User.swift */; };
 		E03F9FDA27A35BFB005979EB /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F9FD927A35BFB005979EB /* ImagesView.swift */; };
-		E03F9FDD27A3611B005979EB /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = E03F9FDC27A3611B005979EB /* QGrid */; };
 		E03F9FDF27A36257005979EB /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03F9FDE27A36257005979EB /* Photo.swift */; };
+		E094BBD127AC6471003680F7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BBD027AC6471003680F7 /* WebView.swift */; };
+		E094BBE127ADEFAE003680F7 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = E094BBE027ADEFAE003680F7 /* SwiftyJSON */; };
+		E094BBE427ADEFBF003680F7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E094BBE327ADEFBF003680F7 /* Kingfisher */; };
+		E094BBE727ADEFD5003680F7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E094BBE627ADEFD5003680F7 /* Alamofire */; };
+		E094BBEA27ADEFE8003680F7 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = E094BBE927ADEFE8003680F7 /* QGrid */; };
+		E094BBF527B05E8C003680F7 /* NetworkFriendsVk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BBF427B05E8C003680F7 /* NetworkFriendsVk.swift */; };
+		E094BBF827B05F17003680F7 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BBF727B05F17003680F7 /* UserSession.swift */; };
+		E094BBFA27B06053003680F7 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BBF927B06053003680F7 /* Friend.swift */; };
+		E094BBFF27B06D8D003680F7 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BBFE27B06D8D003680F7 /* UsersViewModel.swift */; };
+		E094BC0127B07B4C003680F7 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC0027B07B4C003680F7 /* BackendError.swift */; };
+		E094BC0727B1B798003680F7 /* NetworkVkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC0627B1B798003680F7 /* NetworkVkService.swift */; };
+		E094BC0927B1B7D2003680F7 /* NetworkGrpupsVk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC0827B1B7D2003680F7 /* NetworkGrpupsVk.swift */; };
+		E094BC0B27B1B800003680F7 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC0A27B1B800003680F7 /* Groups.swift */; };
+		E094BC0E27B1B9C6003680F7 /* GroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC0D27B1B9C6003680F7 /* GroupViewModel.swift */; };
+		E094BC1227B1C410003680F7 /* NetworkPhotoVk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC1127B1C410003680F7 /* NetworkPhotoVk.swift */; };
+		E094BC1527B1C710003680F7 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC1427B1C710003680F7 /* ImageViewModel.swift */; };
+		E094BC1727B1D77D003680F7 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC1627B1D77D003680F7 /* News.swift */; };
+		E094BC1927B1DEA1003680F7 /* NetworkNewsVk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC1827B1DEA1003680F7 /* NetworkNewsVk.swift */; };
+		E094BC1C27B1DF64003680F7 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094BC1B27B1DF64003680F7 /* NewsViewModel.swift */; };
 		E0B6602427909CD600728020 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6602327909CD600728020 /* LoginView.swift */; };
 		E0B6602627909CD700728020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6602527909CD700728020 /* Assets.xcassets */; };
 		E0B6602927909CD700728020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6602827909CD700728020 /* Preview Assets.xcassets */; };
@@ -29,9 +46,23 @@
 		E03F9FCE27A3472A005979EB /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		E03F9FD027A34D31005979EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E03F9FD227A34DFD005979EB /* VkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VkApp.swift; sourceTree = "<group>"; };
-		E03F9FD627A35649005979EB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E03F9FD927A35BFB005979EB /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		E03F9FDE27A36257005979EB /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E094BBD027AC6471003680F7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E094BBF427B05E8C003680F7 /* NetworkFriendsVk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFriendsVk.swift; sourceTree = "<group>"; };
+		E094BBF727B05F17003680F7 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		E094BBF927B06053003680F7 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		E094BBFE27B06D8D003680F7 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		E094BC0027B07B4C003680F7 /* BackendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
+		E094BC0627B1B798003680F7 /* NetworkVkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkVkService.swift; sourceTree = "<group>"; };
+		E094BC0827B1B7D2003680F7 /* NetworkGrpupsVk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGrpupsVk.swift; sourceTree = "<group>"; };
+		E094BC0A27B1B800003680F7 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		E094BC0D27B1B9C6003680F7 /* GroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewModel.swift; sourceTree = "<group>"; };
+		E094BC1127B1C410003680F7 /* NetworkPhotoVk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPhotoVk.swift; sourceTree = "<group>"; };
+		E094BC1427B1C710003680F7 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		E094BC1627B1D77D003680F7 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		E094BC1827B1DEA1003680F7 /* NetworkNewsVk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkNewsVk.swift; sourceTree = "<group>"; };
+		E094BC1B27B1DF64003680F7 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		E0B6601E27909CD500728020 /* Vk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B6602327909CD600728020 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E0B6602527909CD700728020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03F9FDD27A3611B005979EB /* QGrid in Frameworks */,
+				E094BBEA27ADEFE8003680F7 /* QGrid in Frameworks */,
+				E094BBE727ADEFD5003680F7 /* Alamofire in Frameworks */,
+				E094BBE427ADEFBF003680F7 /* Kingfisher in Frameworks */,
+				E094BBE127ADEFAE003680F7 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +97,7 @@
 		E03F9FCA27A344CC005979EB /* GroupScreen */ = {
 			isa = PBXGroup;
 			children = (
+				E094BC0C27B1B9AB003680F7 /* ViewModel */,
 				E03F9FCB27A344E3005979EB /* GroupView.swift */,
 			);
 			path = GroupScreen;
@@ -71,6 +106,7 @@
 		E03F9FCD27A34716005979EB /* NewsScreen */ = {
 			isa = PBXGroup;
 			children = (
+				E094BC1A27B1DF52003680F7 /* ViewModel */,
 				E03F9FCE27A3472A005979EB /* NewsView.swift */,
 			);
 			path = NewsScreen;
@@ -79,8 +115,10 @@
 		E03F9FD527A3562B005979EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E03F9FD627A35649005979EB /* User.swift */,
 				E03F9FDE27A36257005979EB /* Photo.swift */,
+				E094BBF927B06053003680F7 /* Friend.swift */,
+				E094BC0A27B1B800003680F7 /* Groups.swift */,
+				E094BC1627B1D77D003680F7 /* News.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -88,9 +126,80 @@
 		E03F9FD827A35BEA005979EB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E094BC1327B1C6E1003680F7 /* ViewModel */,
 				E03F9FD927A35BFB005979EB /* ImagesView.swift */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		E094BBCF27AC645B003680F7 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				E094BBD027AC6471003680F7 /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		E094BBEB27ADF175003680F7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E094BC0527B1B784003680F7 /* Protocols */,
+				E094BBF627B05F02003680F7 /* Model */,
+				E094BBF427B05E8C003680F7 /* NetworkFriendsVk.swift */,
+				E094BC1827B1DEA1003680F7 /* NetworkNewsVk.swift */,
+				E094BC1127B1C410003680F7 /* NetworkPhotoVk.swift */,
+				E094BC0827B1B7D2003680F7 /* NetworkGrpupsVk.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E094BBF627B05F02003680F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E094BBF727B05F17003680F7 /* UserSession.swift */,
+				E094BC0027B07B4C003680F7 /* BackendError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E094BBFD27B06D7C003680F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E094BBFE27B06D8D003680F7 /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E094BC0527B1B784003680F7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E094BC0627B1B798003680F7 /* NetworkVkService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E094BC0C27B1B9AB003680F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E094BC0D27B1B9C6003680F7 /* GroupViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E094BC1327B1C6E1003680F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E094BC1427B1C710003680F7 /* ImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E094BC1A27B1DF52003680F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E094BC1B27B1DF64003680F7 /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E0B6601527909CD500728020 = {
@@ -112,6 +221,7 @@
 		E0B6602027909CD600728020 /* Vk */ = {
 			isa = PBXGroup;
 			children = (
+				E094BBEB27ADF175003680F7 /* Networking */,
 				E03F9FD527A3562B005979EB /* Models */,
 				E03F9FD227A34DFD005979EB /* VkApp.swift */,
 				E0B660312790AD9800728020 /* Cells */,
@@ -133,6 +243,7 @@
 		E0B6602F27909D7A00728020 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E094BBCF27AC645B003680F7 /* WebView */,
 				E03F9FD827A35BEA005979EB /* Images */,
 				E03F9FCD27A34716005979EB /* NewsScreen */,
 				E03F9FCA27A344CC005979EB /* GroupScreen */,
@@ -171,6 +282,7 @@
 		E0ED38492794C07C00151B86 /* UserScreen */ = {
 			isa = PBXGroup;
 			children = (
+				E094BBFD27B06D7C003680F7 /* ViewModel */,
 				E0ED384A2794C0B000151B86 /* UsersView.swift */,
 			);
 			path = UserScreen;
@@ -193,7 +305,10 @@
 			);
 			name = Vk;
 			packageProductDependencies = (
-				E03F9FDC27A3611B005979EB /* QGrid */,
+				E094BBE027ADEFAE003680F7 /* SwiftyJSON */,
+				E094BBE327ADEFBF003680F7 /* Kingfisher */,
+				E094BBE627ADEFD5003680F7 /* Alamofire */,
+				E094BBE927ADEFE8003680F7 /* QGrid */,
 			);
 			productName = Vk;
 			productReference = E0B6601E27909CD500728020 /* Vk.app */;
@@ -224,7 +339,10 @@
 			);
 			mainGroup = E0B6601527909CD500728020;
 			packageReferences = (
-				E03F9FDB27A3611B005979EB /* XCRemoteSwiftPackageReference "QGrid" */,
+				E094BBDF27ADEFAE003680F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				E094BBE227ADEFBF003680F7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E094BBE527ADEFD5003680F7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E094BBE827ADEFE8003680F7 /* XCRemoteSwiftPackageReference "QGrid" */,
 			);
 			productRefGroup = E0B6601F27909CD500728020 /* Products */;
 			projectDirPath = "";
@@ -253,16 +371,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				E03F9FD327A34DFD005979EB /* VkApp.swift in Sources */,
+				E094BC1727B1D77D003680F7 /* News.swift in Sources */,
 				E0B6602427909CD600728020 /* LoginView.swift in Sources */,
+				E094BC0927B1B7D2003680F7 /* NetworkGrpupsVk.swift in Sources */,
 				E0ED38482794BEFA00151B86 /* UsersAndGroupBuilder.swift in Sources */,
+				E094BC0E27B1B9C6003680F7 /* GroupViewModel.swift in Sources */,
+				E094BC1927B1DEA1003680F7 /* NetworkNewsVk.swift in Sources */,
 				E03F9FD127A34D31005979EB /* ContentView.swift in Sources */,
+				E094BC0727B1B798003680F7 /* NetworkVkService.swift in Sources */,
+				E094BC1227B1C410003680F7 /* NetworkPhotoVk.swift in Sources */,
+				E094BC0B27B1B800003680F7 /* Groups.swift in Sources */,
 				E03F9FCC27A344E3005979EB /* GroupView.swift in Sources */,
-				E03F9FD727A35649005979EB /* User.swift in Sources */,
+				E094BC1C27B1DF64003680F7 /* NewsViewModel.swift in Sources */,
+				E094BBF827B05F17003680F7 /* UserSession.swift in Sources */,
 				E03F9FCF27A3472A005979EB /* NewsView.swift in Sources */,
 				E03F9FDF27A36257005979EB /* Photo.swift in Sources */,
 				E03F9FB8279D911A005979EB /* MainView.swift in Sources */,
+				E094BBFA27B06053003680F7 /* Friend.swift in Sources */,
+				E094BBD127AC6471003680F7 /* WebView.swift in Sources */,
 				E03F9FDA27A35BFB005979EB /* ImagesView.swift in Sources */,
+				E094BBFF27B06D8D003680F7 /* UsersViewModel.swift in Sources */,
 				E0ED384B2794C0B000151B86 /* UsersView.swift in Sources */,
+				E094BBF527B05E8C003680F7 /* NetworkFriendsVk.swift in Sources */,
+				E094BC1527B1C710003680F7 /* ImageViewModel.swift in Sources */,
+				E094BC0127B07B4C003680F7 /* BackendError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,20 +599,59 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E03F9FDB27A3611B005979EB /* XCRemoteSwiftPackageReference "QGrid" */ = {
+		E094BBDF27ADEFAE003680F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E094BBE227ADEFBF003680F7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E094BBE527ADEFD5003680F7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E094BBE827ADEFE8003680F7 /* XCRemoteSwiftPackageReference "QGrid" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Q-Mobile/QGrid";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.4;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E03F9FDC27A3611B005979EB /* QGrid */ = {
+		E094BBE027ADEFAE003680F7 /* SwiftyJSON */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E03F9FDB27A3611B005979EB /* XCRemoteSwiftPackageReference "QGrid" */;
+			package = E094BBDF27ADEFAE003680F7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		E094BBE327ADEFBF003680F7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E094BBE227ADEFBF003680F7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		E094BBE627ADEFD5003680F7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E094BBE527ADEFD5003680F7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E094BBE927ADEFE8003680F7 /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E094BBE827ADEFE8003680F7 /* XCRemoteSwiftPackageReference "QGrid" */;
 			productName = QGrid;
 		};
 /* End XCSwiftPackageProductDependency section */

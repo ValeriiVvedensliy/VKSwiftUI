@@ -9,14 +9,16 @@ import Foundation
 import SwiftUI
 
 struct GroupView: View {
+
+  @ObservedObject var viewModel = GroupViewModel(service: NetworkGrpupsVk())
+  
   var body: some View {
-    Text("Group")
-  }
-}
-
-
-struct GroupView_Previews: PreviewProvider {
-  static var previews: some View {
-    GroupView()
+    List(viewModel.groups) { group in
+        UsersAndGroupBuilder<Self> (image: group.groupLogo , text: group.groupName)
+    }
+    .onAppear {
+        viewModel.fetchFriends()
+    }
+    .navigationBarBackButtonHidden(true)
   }
 }

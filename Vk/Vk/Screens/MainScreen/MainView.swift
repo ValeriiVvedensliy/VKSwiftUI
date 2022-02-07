@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
   var body: some View {
     TabView {
-      UsersView()
+      UsersView(viewModel: UsersViewModel(service: NetworkFriendsVk()))
       .tabItem {
         Label("Friends", systemImage: "person")
       }
