@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-  @State private var login: String = ""
+  @CodingStyle(typeStyle: .camelCase) private var login: String = ""
   @State private var password: String = ""
   @State private var isWrongPasswordModalShown = false
   @Binding var isAuthorized: Bool
