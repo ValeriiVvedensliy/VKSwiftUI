@@ -21,7 +21,7 @@ struct UsersView: View {
         UsersAndGroupBuilder<Self> (image: user.userAvatar , text: user.userName)
       }
     }
-    .onAppear {
+      .onAppear {
       viewModel.fetchFriends()
     }
     .navigationBarBackButtonHidden(true)
