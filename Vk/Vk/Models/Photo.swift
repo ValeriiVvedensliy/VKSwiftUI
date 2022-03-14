@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Photo: Identifiable {
+struct Photo: Identifiable, Hashable {
   var uuid: String { id }
   let id: String
   let image: String
